@@ -7,7 +7,7 @@ management:
   endpoints:
     web:
       exposure: 
-        includes: health, info, refresh
+        include: health, info, refresh
   endpoint: 
     health:
       show-details: always
